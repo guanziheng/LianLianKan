@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>连连看</title>
+</head>
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+	}
+	#gameBoard{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	#score{
+		position: absolute;
+		left: 0px;
+	}
+	#guanqia{
+		position: absolute;
+	}
+	#time{
+		position: absolute;
+		right: 0;
+	}
+	#replay{
+    	position: absolute;
+    	width: 64px;
+    	height: 64px;
+    	display: none;
+    }
+    .last_score_box{
+    	position: absolute;
+    	width: 200px;
+   		height: 100px;
+    	color: #fff;
+    	display: none;
+    }
+    .text{
+    	font-size: 40px;
+    	width: 200px;
+    	height: 50px;
+    	text-align: center;
+    }
+    #last_score{
+    	font-size: 40px;
+    	width: 200px;
+    	height: 50px;
+    	text-align: center;
+    }
+</style>
+<body>
+	<canvas id="gameBoard"></canvas>
+	<div id="score">得分：0</div>
+	<div id="guanqia">第1关</div>
+	<div id="time">时间：120s</div>
+	<div class="last_score_box">
+		<div class="text">本次得分</div>
+		<div id="last_score">0</div>
+	</div>
+	<div id="replay">
+		<img src="img/replay.png" />
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+</html>
