@@ -138,8 +138,8 @@ window.onload=function(){
 						context.strokeStyle="#f66";
 						context.strokeRect(clickX,clickY,blockSize,blockSize);
 						context.closePath();
-						//lastId=sz["id"];
-						//lastCube=sz;
+						lastId=sz["id"];
+						lastCube=sz;
 					}else{
 						//绘制选择框
 						draw();
