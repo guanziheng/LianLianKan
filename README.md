@@ -1,2 +1,2 @@
-# LianLianKan
-连连看小游戏
+# 连连看
+[预览](https://guanziheng.github.io/LianLianKan/index.html)
